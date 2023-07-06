@@ -30,14 +30,69 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/styles.css" />
-    <link rel="stylesheet" href="css/about.css"
   </head>
   <body>
     <header>
       <div class="mobile-menu-icon" id="mobile-menu">
-        <a><img src="images/mobile_menu.png" alt="Hamburger Icon" /></a>
+        <a href="#"
+          ><img src="images/mobile_menu.png" alt="Hamburger Icon"
+        /></a>
+      </div>
+      <nav class="social-link-top">
+        <ul>
+          <li>
+            <a href="#"
+              ><img src="images/facebook.png" alt="facebook icon"
+            /></a>
+          </li>
+          <li>
+            <a href="#"><img src="images/twitter.png" alt="twitter icon" /></a>
+          </li>
+          <li><a href="#">English</a></li>
+          <li><a href="#">My Page</a></li>
+          <li><a href="#">Logout</a></li>
+        </ul>
+      </nav>
+      <nav class="navbar-menu">
+        <div class="logo">
+          <a href="#"
+            ><img src="images/eta_logo.png" alt="ETA institution logo here"
+          /></a>
+        </div>
+        <ul class="menu">
+          <li class="nav-item"><a href="#">Home</a></li>
+          <li class="nav-item"><a href="about.html">About </a></li>
+          <li class="nav-item"><a href="#program">Program</a></li>
+          <li class="nav-item"><a href="#join">Join</a></li>
+          <li class="nav-item"><a href="#sponsor">Sponsor</a></li>
+          <li class="nav-item"><a href="#contact">News</a></li>
+          <li class="nav-item" id="campaign">
+            <a href="#campaign">ETA Campaign</a>
+          </li>
+        </ul>
+      </nav>
+      <!-- mobile menu-->
+      <div class="mobile-menu hidden">
+        <span class="close-menu"
+          ><img src="images/Iconmenu-close.png" alt="close menu icon"
+        /></span>
+        <div class="mobile-menu-content">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#program">Program</a>
+          <a href="#join">Join</a>
+          <a href="#sponsor">Sponsor</a>
+          <a href="#news">News</a>
+          <a href="#campaign">ETA Campaign</a>
+        </div>
       </div>
     </header>
+    <!-- overlay-->
+    <div class="overlay hide"></div>
+
+    <!-- popup modal container-->
+    <div class="popup-modal-container hide"></div>
+    <!-- end of popup modal container-->
     <main>
       <!-- welcome section-->
       <section class="welcome-wrapper" id="welcome">
@@ -70,8 +125,7 @@
               of sharing and opening.
             </p>
           </div>
-        </div>
-        <div class="program-details">
+
           <div class="program-cards">
             <img class="card-images" src="images/program_icon_02.png" />
             <p class="card-title">CC Exhibition</p>
@@ -80,8 +134,7 @@
               organized from Art Center Nabi
             </p>
           </div>
-        </div>
-        <div class="program-details">
+
           <div class="program-cards">
             <img class="card-images" src="images/program_icon_03.png" />
             <p class="card-title">Forum</p>
@@ -90,8 +143,6 @@
               each topic.
             </p>
           </div>
-        </div>
-        <div class="program-details">
           <div class="program-cards">
             <img class="card-images" src="images/program_icon_04.png" />
             <p class="card-title">Workshop</p>
@@ -100,8 +151,6 @@
               just watching at it.
             </p>
           </div>
-        </div>
-        <div class="program-details">
           <div class="program-cards">
             <img class="card-images" src="images/program_icon_05.png" />
             <p class="card-title">CC Ignite</p>
@@ -111,7 +160,8 @@
             </p>
           </div>
         </div>
-        <a class="join-link"> Join 2023 Web Developer Conference</a>
+        <a href="#" class="join-link"> Join 2023 Web Developer Conference</a>
+        <a href="#" class="whole-program"> SEE THE WHOLE PROGRAM</a>
       </section>
       <!-- end of main program section -->
       <!-- featured speakers section -->
