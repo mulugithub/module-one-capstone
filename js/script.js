@@ -87,9 +87,9 @@ window.onload = () => {
   </article>
     </div>
     `;
-    speakers.innerHTML += index === 1 ? '<div id="see-more" class="see-more"> MORE <img src="../images/arrow_down.png" alt=" arrow down image" /></div>' : '';
+    speakers.innerHTML += index === 1 ? '<div id="see-more" class="see-more"> MORE <img src="./images/arrow_down.png" alt=" arrow down image" /></div>' : '';
   });
-  speakers.innerHTML += '<div class="see-less" id="see-less"> LESS <img src="../images/arrow_up.png" alt=" arrow down image" /></div>';
+  speakers.innerHTML += '<div class="see-less" id="see-less"> LESS <img src="./images/arrow_up.png" alt=" arrow down image" /></div>';
   const seeMore = document.querySelector('.speakers #see-more');
   const seeLess = document.querySelector('.speakers .see-less');
 
