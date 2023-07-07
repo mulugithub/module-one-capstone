@@ -26,7 +26,7 @@
 
 **[Module one casptone project]** This capstone project was created to showcase my HTML, CSS, and JavaScript skills while working on the module one capstone project. HTML, CSS, and JavaScript were used to build the project.
 -Have a look at the 
-[video description](https://www.loom.com/share/042c3b004e6545d09fcd524fe45ee908?sid=80597c70-d22b-4c79-aa42-983b034c3e98) for  my portfolio project.
+[video description](https://www.loom.com/share/042c3b004e6545d09fcd524fe45ee908?sid=80597c70-d22b-4c79-aa42-983b034c3e98) for capstone project.
 
 ## 🛠 Built With <a name="built-with"></a>
 
