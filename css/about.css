@@ -339,7 +339,7 @@ footer .copyright {
     background-image: url(../images/desktop_bg.png);
     background-size: cover;
     background-position: 50% 50%;
-    height: 70vh;
+    max-height: 500px;
     width: 100%;
   }
 
@@ -425,6 +425,8 @@ footer .copyright {
 
   .logo-info-wrapper .logo-image {
     width: 20%;
+    max-width: 220px;
+    height: auto;
   }
 
   footer {
@@ -434,11 +436,16 @@ footer .copyright {
   }
 
   .logo-info-wrapper {
-    padding-top: 10rem;
+    margin-top: 4rem;
   }
 
   .hero-header .welcome {
     font-weight: 900;
     font-size: 2rem;
+  }
+
+  .about-hero .about-text {
+    width: 80%;
+    max-width: 568px;
   }
 }
