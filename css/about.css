@@ -24,8 +24,9 @@ body {
   background-image: url(../images/mobile-bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 85vh;
+  height: 88vh;
 }
+
 /* mobile menu */
 
 .mobile-menu {
@@ -114,14 +115,14 @@ header {
 }
 
 .contact .contact-txt {
-  font-size: 0.75rem;
+  font-size: 0.9rem;
   color: #7a7a7a;
   text-align: center;
 }
 
 .contact .contact-email {
-  font-size: 0.75rem;
-  font-weight: 900;
+  font-size: 0.9rem;
+  font-weight: 700;
   color: #5f5f5f;
   text-align: center;
   justify-content: center;
@@ -138,7 +139,6 @@ header {
   padding: 2rem 1.5rem;
   gap: 1.5rem;
   text-align: center;
-  margin-top: 10rem;
 }
 
 .logo-info-wrapper .logo-underline {
@@ -161,7 +161,6 @@ header {
 .logo-info-wrapper .about-logo {
   color: #838383;
   font-size: 1rem;
-  font-weight: 700;
   line-height: 1.75rem;
 }
 
@@ -186,7 +185,6 @@ header {
 .see-past-wrapper .about-past {
   color: #838383;
   font-size: 1rem;
-  font-weight: 700;
   line-height: 1.75rem;
 }
 
@@ -321,11 +319,11 @@ footer .copyright {
     display: none;
   }
 
-.navbar-menu .logo,
-.social-link-top,
-.navbar-menu {
-  display: block;
-}
+  .navbar-menu .logo,
+  .social-link-top,
+  .navbar-menu {
+    display: block;
+  }
 
   header {
     padding: 1rem 0 0;
@@ -340,17 +338,12 @@ footer .copyright {
     width: 100%;
   }
 
-
   .about-hero {
     display: flex;
     flex-direction: column;
-    gap: 1.5rem;
-    padding: 2rem 15rem;
-    margin-top: 3rem;
+    gap: 1rem;
+    padding: 2.5rem 3rem;
   }
-
-
-
 
   /* partner section */
 
@@ -428,7 +421,6 @@ footer .copyright {
     padding: 0.7rem;
   }
 
-
   .past-image-container {
     flex-direction: row;
   }
@@ -437,12 +429,17 @@ footer .copyright {
     width: 20%;
   }
 
-  .logo-info-wrapper {
-    margin-top: 9rem;
-  }
-
   footer {
     padding-left: 10rem;
   }
 
+  .logo-info-wrapper {
+    /* margin-top: 6rem; */
+    padding-top: 10rem;
+  }
+
+  .hero-header .welcome {
+    font-weight: 900;
+    font-size: 2rem;
+  }
 }

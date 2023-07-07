@@ -24,7 +24,7 @@ body {
   background-image: url(../images/mobile-bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 60vh;
+  height: 85vh;
 }
 
 /* mobile menu */
@@ -114,7 +114,7 @@ header {
   display: flex;
   flex-direction: column;
   gap: 0.3rem;
-  padding: 0 0 1.1rem 0;
+  padding: 0 0 3.8rem 0;
 }
 
 .date-venue .schedule {
@@ -187,7 +187,7 @@ header {
   background-color: var(--ornage-color);
   padding: 2rem 1.25rem;
   font-size: 1rem;
-  font-weight: 900;
+  font-weight: 700;
   margin: 2rem 0;
 }
 
@@ -342,6 +342,12 @@ footer .copyright {
     display: none;
   }
 
+  .navbar-menu .logo,
+  .social-link-top,
+  .navbar-menu {
+    display: block;
+  }
+
   header {
     padding: 1rem 0 0;
   }
@@ -351,7 +357,7 @@ footer .copyright {
     background-image: url(../images/desktop_bg.png);
     background-size: cover;
     background-position: 50% 50%;
-    height: 70vh;
+    height: 113vh;
     width: 100%;
   }
 
