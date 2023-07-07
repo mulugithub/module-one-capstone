@@ -25,6 +25,8 @@
 # 📖 [capstone project] <a name="about-project"></a>
 
 **[Module one casptone project]** This capstone project was created to showcase my HTML, CSS, and JavaScript skills while working on the module one capstone project. HTML, CSS, and JavaScript were used to build the project.
+-Have a look at the 
+[video description](https://www.loom.com/share/042c3b004e6545d09fcd524fe45ee908?sid=80597c70-d22b-4c79-aa42-983b034c3e98) for  my portfolio project.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -54,7 +56,7 @@
 
 > Click the live demo to access the application.
 
-- [Live Demo Link](https://mulugithub.github.io/Microverse-Portfolio/)
+- [Live Demo Link](https://mulugithub.github.io/module-one-capstone/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -126,8 +128,8 @@ If you like this project, give it a star on GitHub.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
--I would like to thank Microverse team to give this project and the MV code reviewers.
--I would like to thank [Cindy Shin in Behance](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015), the designer!
+- I would like to thank Microverse team to give this project and the MV code reviewers.
+- I would like to thank [Cindy Shin in Behance](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015), the designer!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
