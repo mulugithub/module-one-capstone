@@ -311,13 +311,14 @@ header {
 
 footer {
   display: flex;
-  padding: 1.6rem 0.8rem 1.6rem 0.8rem;
+  justify-content: space-evenly;
   align-items: center;
+  padding: 1.6rem 2rem;
 }
 
 footer .footer-logo {
-  width: 140px;
-  height: 100px;
+  width: 100px;
+  height: 80px;
 }
 
 footer .copyright {
@@ -496,6 +497,6 @@ footer .copyright {
   }
 
   footer {
-    padding-left: 10rem;
+    padding: 1.6rem 0;
   }
 }
