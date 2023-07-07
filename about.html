@@ -34,7 +34,57 @@
   <body>
     <header>
       <div class="mobile-menu-icon" id="mobile-menu">
-        <a><img src="images/mobile_menu.png" alt="Hamburger Icon" /></a>
+        <a href="#"
+          ><img src="images/mobile_menu.png" alt="Hamburger Icon"
+        /></a>
+      </div>
+      <nav class="social-link-top">
+        <ul>
+          <li>
+            <a href="#"
+              ><img src="images/facebook.png" alt="facebook icon"
+            /></a>
+          </li>
+          <li>
+            <a href="#"><img src="images/twitter.png" alt="twitter icon" /></a>
+          </li>
+          <li><a href="#">English</a></li>
+          <li><a href="#">My Page</a></li>
+          <li><a href="#">Logout</a></li>
+        </ul>
+      </nav>
+      <nav class="navbar-menu">
+        <div class="logo">
+          <a href="#"
+            ><img src="images/eta_logo.png" alt="ETA institution logo here"
+          /></a>
+        </div>
+        <ul class="menu">
+          <li class="nav-item"><a href="index.html">Home</a></li>
+          <li class="nav-item"><a href="#">About </a></li>
+          <li class="nav-item"><a href="#program">Program</a></li>
+          <li class="nav-item"><a href="#join">Join</a></li>
+          <li class="nav-item"><a href="#sponsor">Sponsor</a></li>
+          <li class="nav-item"><a href="#contact">News</a></li>
+          <li class="nav-item" id="campaign">
+            <a href="#campaign">ETA Campaign</a>
+          </li>
+        </ul>
+      </nav>
+      <!-- mobile menu-->
+      <div class="mobile-menu hidden">
+        <span class="close-menu"
+          ><img src="images/Iconmenu-close.png" alt="close menu icon"
+        /></span>
+        <div class="mobile-menu-content">
+          <a href="index.html">Home</a>
+          <a href="#">About</a>
+          <a href="#program">Program</a>
+          <a href="#join">Join</a>
+          <a href="#sponsor">Sponsor</a>
+          <a href="#news">News</a>
+          <a href="#campaign">ETA Campaign</a>
+        </div>
       </div>
     </header>
     <main>
@@ -63,6 +113,7 @@
         <img class="logo-image" src="images/eta_logo.png">
       </div>
       <!-- end of logo info section -->
+      <hr class="logo-past-underline">
       <!-- previous conference section -->
       <div class="see-past-wrapper">
         <h2 class="past-title">See the past web developer conference</h2>
@@ -115,5 +166,6 @@
       />
       <p class="copyright">&copy; Eagle Tech Academy. Some Rights Reserved.</p>
     </footer>
+    <script src="js/script.js"></script>
   </body>
 </html>

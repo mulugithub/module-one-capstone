@@ -1,3 +1,15 @@
+const mobileMenu = document.querySelector('header .mobile-menu');
+const hamburger = document.querySelector('header .mobile-menu-icon img');
+const closeMenu = document.querySelector('header .mobile-menu .close-menu');
+
+hamburger.addEventListener('click', () => {
+  mobileMenu.style.display = 'flex';
+});
+
+closeMenu.addEventListener('click', () => {
+  mobileMenu.style.display = 'none';
+});
+
 const seeMore = document.querySelector('.speakers #see-more');
 const seeLess = document.querySelector('.speakers .see-less');
 const speakers = document.querySelector('.speakers');
